@@ -56,7 +56,7 @@ export default function App() {
         </h1>
         <hgroup>
           <Button>Explore the Perks</Button>
-          <p>
+          <p className={styles.subline}>
             Happiness <EmojiHappiness /> Guaranteed.
           </p>
         </hgroup>
