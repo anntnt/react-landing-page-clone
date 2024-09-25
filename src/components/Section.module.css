@@ -1,0 +1,70 @@
+/* .wrapper {
+  max-width: var(--container-max);
+}*/
+.sectionBasicStyle {
+  border-radius: 1rem;
+  border: 1px solid #ffffff26;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+.section {
+  composes: sectionBasicStyle;
+  width: 50%;
+  flex: 1;
+}
+.largeSection {
+  composes: sectionBasicStyle;
+
+  width: 100%;
+}
+.thinSection {
+  composes: sectionBasicStyle;
+
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  div {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 700;
+    background-color: var(--color-brightblack);
+    padding: 0.3rem 1rem;
+    border-radius: 30px;
+  }
+}
+.flexDirectionRow {
+  flex-direction: row;
+}
+.flexDirectionColumn {
+  flex-direction: column;
+}
+.lightBgColor {
+  background-color: var(--color-overlay-bright-2);
+}
+.darkBgColor {
+  background-color: var(--color-overlay-dark-1);
+}
+.expert {
+  padding-top: 0;
+  padding-bottom: 0;
+  hgroup {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: left;
+  }
+}
+
+/*.darkBackground2 {
+  background-color: var(--color-overlay-dark-2);
+}
+.darkBackground3 {
+  background-color: var(--color-overlay-dark-3);
+} */
