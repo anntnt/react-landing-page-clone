@@ -3,21 +3,22 @@ import Button from './components/Button.js';
 import Section from './components/Section.js';
 import nefOutline from './images/nef-outline.webp';
 import { ReactComponent as BlueLabel } from './svg/blueLabel.svg';
-import { ReactComponent as BrandsBs } from './svg/brands-bs.svg';
+/* import { ReactComponent as BrandsBs } from './svg/brands-bs.svg';
 import { ReactComponent as BrandsHilton } from './svg/brands-hilton.svg';
-import { ReactComponent as BwfGunzilla } from './svg/bwf-gunzilla.svg';
+import { ReactComponent as BwfGunzilla } from './svg/bwf-gunzilla.svg'; */
 import { ReactComponent as EmojiHappiness } from './svg/emojiHappiness.svg';
-import { ReactComponent as HeadingWork } from './svg/heading-work.svg';
+// import { ReactComponent as HeadingWork } from './svg/heading-work.svg';
 import { ReactComponent as HeadingFlowGradient } from './svg/headingFlowGradient.svg';
 import { ReactComponent as IconHandcrafted } from './svg/icon-handcrafted.svg';
-import { ReactComponent as IconLove } from './svg/icon-love.svg';
+// import { ReactComponent as IconLove } from './svg/icon-love.svg';
 import { ReactComponent as IconThunder } from './svg/icon-thunder.svg';
 import { ReactComponent as IconUnlimited } from './svg/icon-unlimited.svg';
-import { ReactComponent as LinkedInNegative } from './svg/LinkedIn-Negative.svg';
-import { ReactComponent as LogoText } from './svg/logo-text.svg';
+// import { ReactComponent as LinkedInNegative } from './svg/LinkedIn-Negative.svg';
+// import { ReactComponent as LogoText } from './svg/logo-text.svg';
 import { ReactComponent as Logo } from './svg/logo.svg';
 import { ReactComponent as RoundInstructor } from './svg/round-instructor.svg';
-import { ReactComponent as Xlogo } from './svg/x-logo.svg';
+
+// import { ReactComponent as Xlogo } from './svg/x-logo.svg';
 
 export default function App() {
   return (
