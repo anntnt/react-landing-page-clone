@@ -1,3 +1,59 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-background: #6a357b;
+  --color-white: #ffffff;
+  --container-max: 960px;
+  --nav-max: 80rem;
+  --color-overlay-bright-1: rgba(255, 255, 255, 0.05);
+  --color-overlay-bright-2: rgba(255, 255, 255, 0.15);
+  --color-black: #000;
+  --color-overlay-dark-1: rgba(0, 0, 0, 0.36);
+  --color-overlay-dark-2: rgba(22, 22, 22, 0.5);
+  --color-overlay-dark-3: rgba(0, 0, 0, 0.65);
+  --color-blue: rgb(87, 28, 255);
+  --color-brightblack: #2a2135;
+}
+
+body {
+  background-image: url('./images/bg-color.jpg');
+  background-color: var(--color-background);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: var(--color-white);
+  font-family: 'Plus Jakarta Sans Variable', sans-serif;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+h1 {
+  font-family: 'Playfair Display Variable', sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 5rem;
+}
+h2 {
+  font-family: 'Plus Jakarta Sans Variable', sans-serif;
+  font-size: 2.2rem;
+}
+h3 {
+  font-family: 'Plus Jakarta Sans Variable', sans-serif;
+}
+.subline {
+  font-family: 'Balsamiq Sans', sans-serif;
+}
+a {
+  color: inherit;
+}
+
 header {
   display: flex;
   max-width: var(--nav-max);
