@@ -26,7 +26,9 @@ export default function App() {
       <header>
         <div className={styles.logoWrapper}>
           <Logo className={styles.iconBwf} />
-          <a href="/">BuildWithFlowTM</a>
+          <a href="/">
+            BuildWithFlow<span className={styles.tm_smaller}>TM</span>
+          </a>
         </div>
         <nav>
           <ul>
